@@ -83,10 +83,12 @@ a:visited {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-/* .patients{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-} */
+.features{
+    text-align: center;
+}
+.features h1{
+    float: left;
+}
 .card{
     display: inline-block;
     width: 10vw;
